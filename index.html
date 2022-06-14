@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FadRespect - Page</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Khula:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- ------GLIDER----- -->
+		<link rel="stylesheet" href="./CSS/glider.min.css" type="text/css" />
+		<!-- GALLERY - LIGHTBOX -->
+		<link rel="stylesheet" href="./CSS/lightbox.css" />
+		<!-- style css -->
+		<link rel="stylesheet" href="./CSS/style.css" />
+	</head>
+	<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+		<nav
+			class="navbar navbar-expand-lg navbar-light bg-white py-4 px-5 fixed-top"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img
+						src="./src/logo.jpg"
+						alt="Logo firmy w kolorze czarnym - Fad Respect"
+					/>
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<img src="./src/burger.svg" alt="Navbar burger icon" />
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item dropdown mx-lg-4">
+							<a
+								class="nav-link dropdown-toggle active"
+								href="#"
+								id="navbarDropdownMenuLink"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Link
+							</a>
+							<ul
+								class="dropdown-menu"
+								aria-labelledby="navbarDropdownMenuLink"
+							>
+								<li><a class="dropdown-item" href="#">LINK</a></li>
+								<li><a class="dropdown-item" href="#">LINK</a></li>
+								<li><a class="dropdown-item" href="#">LINK</a></li>
+							</ul>
+						</li>
+						<li class="nav-item mx-lg-4">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item mx-lg-4">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item mx-lg-4">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item mx-lg-4">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item mx-lg-4">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item dropdown d-none d-lg-flex mx-lg-4">
+							<a
+								class="nav-link active"
+								href="#"
+								id="navbarDropdownMenuLink"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								<img src="./src/loup.svg" alt="Obrazek lupy" />
+							</a>
+							<ul
+								class="dropdown-menu"
+								aria-labelledby="navbarDropdownMenuLink"
+							>
+								<form
+									class="dropdown-item d-flex"
+									aria-labelledby="navbarDropdownMenuLink"
+								>
+									<input
+										class="form-control me-2"
+										type="search"
+										placeholder="Search"
+										aria-label="Search"
+									/>
+									<button class="btn btn-outline-secondary" type="submit">
+										Search
+									</button>
+								</form>
+							</ul>
+						</li>
+						<li class="nav-item mx-lg-4 d-lg-none">
+							<form class="d-flex col-12 col-sm-10">
+								<input
+									class="form-control me-2"
+									type="search"
+									placeholder="Search"
+									aria-label="Search"
+								/>
+								<button class="btn btn-outline-secondary" type="submit">
+									Search
+								</button>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<section class="intro py-5" id="intro">
+				<div class="container w-100 py-5">
+					<div class="row m-0 align-items-center flex-lg-row pt-4">
+						<div
+							class="col-md-5 d-flex flex-column align-items-center align-items-md-start py-5"
+						>
+							<h1
+								class="display-1 text-center text-md-start pt-5 mb-5 section-title-h1"
+							>
+								Headline awesome
+							</h1>
+							<p class="text-center text-md-start mb-5 section-desc-intro">
+								Billions upon billions bits of moving fluff invent the universe
+								science rogue Rig Veda. Orion's sword rich in heavy atoms
+								vanquish the network of wormholes.
+							</p>
+							<div class="d-flex justify-content-center gap-5">
+								<button class="btn btn-outline-secondary">Button</button>
+								<span class="d-flex align-items-center learn"
+									>Learn more <i class="bi bi-arrow-right arrow"></i
+								></span>
+							</div>
+						</div>
+						<div class="box-images py-5">
+							<div class="box-image image1"></div>
+							<div class="box-image image2"></div>
+							<div class="box-image image3"></div>
+							<div class="box-image image4"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="price py-5" id="price">
+				<div class="container w-100">
+					<div class="row m-0 align-items-center flex-lg-row">
+						<div class="d-flex flex-column align-items-center py-5">
+							<span class="mb-1 pricing">Pricing</span>
+							<h2 class="display-1 text-center pt-3 mb-5 section-title-h2">
+								Make it yours today
+							</h2>
+							<p class="text-center mb-5 section-desc-price">
+								All packages come with a 30 day money back gurantee!
+							</p>
+							<div class="element-box glider-contain multiple">
+								<div class="d-flex justify-content-between mt-4 box-slide">
+									<span
+										class="align-items-center btn-per btn-monthly orange-button"
+										>MONTHLY</span
+									>
+									<span class="align-items-center btn-per btn-year">YEAR</span>
+								</div>
+								<div class="element-card pt-5 mt-4 flex-wrap glider">
+									<div class="card">
+										<div class="card-body">
+											<h4 class="card-title pb-3">Starter</h4>
+											<h5 class="card-subtitle mb-2">320 PLN</h5>
+											<p class="card-text pb-5">miesięcznie</p>
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<button class="btn btn-outline-secondary mt-5 w-100">
+												Subscribe
+											</button>
+										</div>
+									</div>
+									<div class="card bg-light">
+										<div class="card-body">
+											<h4 class="card-title pb-3">Normal</h4>
+											<h5 class="card-subtitle mb-2">450 PLN</h5>
+											<p class="card-text pb-5">miesięcznie</p>
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<button class="btn btn-outline-secondary mt-5 w-100">
+												Subscribe
+											</button>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-body">
+											<h4 class="card-title pb-3">Premium</h4>
+											<h5 class="card-subtitle mb-2">650 PLN</h5>
+											<p class="card-text pb-5">miesięcznie</p>
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<button class="btn btn-outline-secondary mt-5 w-100">
+												Subscribe
+											</button>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-body">
+											<h4 class="card-title pb-3">Starter</h4>
+											<h5 class="card-subtitle mb-2">1320 PLN</h5>
+											<p class="card-text pb-5">rocznie</p>
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<button class="btn btn-outline-secondary mt-5 w-100">
+												Subscribe
+											</button>
+										</div>
+									</div>
+									<div class="card bg-light">
+										<div class="card-body">
+											<h4 class="card-title pb-3">Normal</h4>
+											<h5 class="card-subtitle mb-2">1450 PLN</h5>
+											<p class="card-text pb-5">rocznie</p>
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<button class="btn btn-outline-secondary mt-5 w-100">
+												Subscribe
+											</button>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-body">
+											<h4 class="card-title pb-3">Premium</h4>
+											<h5 class="card-subtitle mb-2">1650 PLN</h5>
+											<p class="card-text pb-5">rocznie</p>
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<hr />
+											<p class="card-text mb-4">
+												<i class="bi bi-check-lg"></i>Single domain
+											</p>
+											<button class="btn btn-outline-secondary mt-5 w-100">
+												Subscribe
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<p class="text-center text-muted mt-5">
+								Prices above do not include VAT
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="gallery py-5" id="gallery">
+				<div class="container w-100">
+					<div class="row m-0 align-items-center flex-lg-row">
+						<div class="d-flex flex-column align-items-left py-5">
+							<span class="mb-1 text-amet">Amet is samet</span>
+							<h3 class="display-4 pt-3 mb-5">Gallery</h3>
+							<div class="box-gallery">
+								<div class="gallery-images py-4">
+									<a
+										href="./src/image7.jpg"
+										class="gallery-size"
+										data-lightbox="roadtrip"
+									>
+										<img
+											src="./src/image7.jpg"
+											alt="Blask zachodzącego słońca nad morzem"
+											class="gallery-size"
+										/>
+									</a>
+									<a
+										href="./src/image6.jpg"
+										class="gallery-size"
+										data-lightbox="roadtrip"
+									>
+										<img
+											src="./src/image6.jpg"
+											alt="Wyspa w kształcie serca"
+											class="gallery-size"
+										/>
+									</a>
+									<a
+										href="./src/image5.jpg"
+										class="gallery-size"
+										data-lightbox="roadtrip"
+									>
+										<img
+											src="./src/image5.jpg"
+											alt="Widok gór okrytych chmurami"
+											class="gallery-size"
+										/>
+									</a>
+									<a
+										href="./src/image4.jpg"
+										class="gallery-size"
+										data-lightbox="roadtrip"
+									>
+										<img
+											src="./src/image4.jpg"
+											alt="Dryfująca pusta łódka na wodzie"
+											class="gallery-size"
+										/>
+									</a>
+									<a
+										href="./src/image3.jpg"
+										class="gallery-size"
+										data-lightbox="roadtrip"
+									>
+										<img
+											src="./src/image3.jpg"
+											alt="Rzeczka w lesie do której wpada światło"
+											class="gallery-size"
+										/>
+									</a>
+									<a
+										href="./src/image2.jpg"
+										class="gallery-size"
+										data-lightbox="roadtrip"
+									>
+										<img
+											src="./src/image2.jpg"
+											alt="Plaża nad oceanem gdzie jest błękitno-przezroczysta woda"
+											class="gallery-size"
+										/>
+									</a>
+									<a
+										href="./src/image1.jpg"
+										class="gallery-size"
+										data-lightbox="roadtrip"
+									>
+										<img
+											src="./src/image1.jpg"
+											alt="Zachmurzona sceneria z widokiem na plamy oraz plażę z falami"
+											class="gallery-size"
+										/>
+									</a>
+								</div>
+								<div class="glider-dots" id="dots"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="container w-100 py-5 d-sm-flex">
+				<img
+					src="./src/LOGO-footer.svg"
+					alt="Logo firmy białego koloru - Fad Respect"
+					class="logo-footer"
+				/>
+				<div class="links-footer ms-auto justify-content-center">
+					<a href="#" class="px-2 mx-4">Link</a>
+					<a href="#" class="px-2 mx-4">Link</a>
+					<a href="#" class="px-2 mx-4">Link</a>
+					<a href="#" class="px-2 mx-4">Link</a>
+					<a href="#" class="px-2 mx-4">Link</a>
+					<a href="#" class="px-2 mx-4">Link</a>
+				</div>
+			</div>
+			<p class="footer-bottom-text container text-secondary">
+				&copy; 2019 Fabrx
+			</p>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- =====GLIDER====== -->
+		<script src="./JS/glider.min.js"></script>
+
+		<!-- GALLERY - LIGHTBOX -->
+		<script src="./JS/lightbox-plus-jquery.js"></script>
+
+		<!-- =====JS====== -->
+		<script src="./JS/style.js"></script>
+	</body>
+</html>

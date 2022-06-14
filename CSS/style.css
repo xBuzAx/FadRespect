@@ -1,0 +1,419 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+    --orange: #EF7925;
+    --black: #121212;
+    --white: #fff;
+    --text-site: #1D1D1B;
+}
+
+html {
+    font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: 'Khula', sans-serif;
+	font-size: 1.6rem;
+    color: var(--text-site);
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.btn-outline-secondary {
+    padding: .4em 1.4em;
+    font-size: 1.5rem;
+    color: var(--white);
+    background-color: var(--orange);
+    border-color: var(--orange);
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
+
+/* NAV */
+nav{
+    box-shadow: 0 1px 3px #0000001a, 0 2px 2px #0000000f,
+      0 0 2px #00000012;
+}
+
+.nav-link {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.form-control {
+    font-size: 1.5rem;
+}
+
+.dropdown-menu.show {
+    left: 0px;
+    width: 300px;
+    font-size: 1.5rem;
+    margin-bottom: .5em;
+}
+
+.dropdown-item {
+    width: 300px;
+}
+
+.navbar-toggler {
+    padding: .7em 1.4em;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    background-image: url('../src/Icon.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 10px;
+    height: 10px;
+    margin-left: .3em;
+    vertical-align: 0em;
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: var(--orange);
+}
+
+/* FIRST SECTION - INTRO */
+.intro {
+    position: relative;
+}
+
+.learn {
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.intro .btn-outline-secondary {
+    padding: .4em 2em;
+}
+
+.learn .bi-arrow-right {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: .5em;
+    transition: transform .3s;
+}
+
+.learn:hover .bi-arrow-right {
+    transform: translateX(0.70rem);
+}
+
+.box-images {
+    display: grid;
+    gap: 1em;
+}
+
+.box-image {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.image1 {
+    background-image: url('../src/image1-small.jpg');
+    background-position: right;
+}
+
+.image2 {
+    background-image: url('../src/image2-small.jpg');
+    background-position: left;
+}
+
+.image3 {
+    background-image: url('../src/image3-small.jpg');
+}
+
+.image4 {
+    background-image: url('../src/image4-small.jpg');
+}
+
+/* SECOND SECTION - PRICE */
+.pricing {
+    color: var(--orange);
+    font-size: 2rem;
+}
+
+.box-slide {
+    margin: 0 auto;
+    border-radius: 1000px;
+    border: 1px solid #3333;
+    width: 190px;
+}
+
+.btn-per {
+    display: flex;
+    font-size: 1.4rem;
+    margin: 0.1em;
+    padding: .8em 1.5em;
+    border-radius: 1000px;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: background-color .4s, color .3s;
+}
+
+.btn-per:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.orange-button {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.element-box {
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    border-radius: 12px;
+    padding: 1em;
+    margin: 0em .5em 0em .5em;
+}
+
+.card-body{
+    margin: .5em;
+}
+
+.card-title {
+    font-size: 1.8rem;
+}
+
+.card-subtitle {
+    font-size: 4rem;
+}
+
+.card-text .bi-check-lg {
+    margin-right: 1em;
+}
+
+/* THIRD SECTION - GALLERY */
+.text-amet {
+    color: var(--orange);
+}
+
+.box-gallery {
+    position: relative;
+}
+
+.gallery-size {
+    width: 100%;
+    background-position: center;
+    background-size: auto;
+    margin: 0em .5em 0em .5em;
+    transition: transform .3s;
+}
+
+.gallery-size:hover {
+    transform: scale(1.007);
+}
+
+/* FOOTER */
+footer {
+    height: 300px;
+    background-color: var(--black);
+}
+
+.logo-footer {
+    display: flex;
+    margin: 0 auto 5em auto;
+    cursor: pointer;
+}
+
+.links-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 1em 0;
+    color: var(--white);
+    font-weight: 600;
+    transition: color .3s;
+}
+
+footer a:hover {
+    color: var(--orange);
+}
+
+.footer-bottom-text {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 190px;
+    background-color: var(--black);
+}
+
+/* ================= */
+@media (min-width: 576px) {
+    /* SECOND SECTION - PRICE */
+    .card-body{
+        margin: 1em;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+
+    .card-subtitle {
+        font-size: 5rem;
+    }
+    /* FOOTER */
+    .logo-footer {
+        margin: 0;
+    }
+
+    footer a {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    /* FIRST SECTION - INTRO */
+    .section-title-h1 {
+        font-size: 5.5rem;
+    }
+    .box-images {
+        width: 57%;
+        gap: 1em;
+        height: 800px;
+        grid-template-columns: repeat(4, 1fr);
+	    grid-template-rows: repeat(3, 1fr);
+    }
+
+    .box-image {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        animation: introLoad 2s forwards;
+    }
+    
+    .image1 {
+        grid-row: 1/3;
+		grid-column: 1/3;
+    }
+    
+    .image2 {
+        grid-row: 1/2;
+		grid-column: 3/5;
+    }
+    
+    .image3 {
+        grid-row: 3/5;
+		grid-column: 1/3;
+    }
+    
+    .image4 {
+        background-position: center;
+        grid-row: 2/5;
+		grid-column: 3/5;
+    }
+
+    .element-card {
+        display: flex;
+        row-gap: 1em;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 1em 0 auto;
+        width: 300px;
+    }
+    
+    .card-body{
+        width: 100%;
+    }
+    /* THIRD SECTION - GALLERY */
+    .gallery-size {
+        min-height: 200px;
+    }
+}
+
+@media (min-width: 996px) {
+    /* NAV */
+    .dropdown-menu.show {
+        position: absolute;
+        left: -250px;
+    }
+    /* FIRST SECTION - INTRO */
+    .section-title-h1 {
+        font-size: 8rem;
+    }
+
+    .section-desc-intro {
+        width: 75%;
+    }
+
+    .intro .btn-outline-secondary {
+        padding: .6em 2.4em;
+    }
+    
+    .image1 {
+        background-image: url('../src/image1.jpg');
+    }
+    
+    .image2 {
+        background-image: url('../src/image2.jpg');
+    }
+    
+    .image3 {
+        background-image: url('../src/image3.jpg');
+    }
+    
+    .image4 {
+        background-image: url('../src/image4.jpg');
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+    /* SECOND SECTION - PRICE */
+    .card-subtitle {
+        font-size: 6rem;
+    }
+
+    .section-title-h2 {
+        font-size: 6rem;
+    }
+    /* THIRD SECTION - GALLERY */
+    .gallery-size {
+        min-height: 430px;
+    }
+}
+/* ======== KEYFRAMES ====== */
+@keyframes introLoad {
+    from {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
